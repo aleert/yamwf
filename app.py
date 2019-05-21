@@ -12,8 +12,8 @@ except ImportError:
 
 
 if __name__ == '__main__':
-    with make_server('', 8000, wsgi_app) as httpd:
-        print("Serving HTTP on port 8000...")
+    with make_server('', 8080, wsgi_app) as httpd:
+        print("Serving HTTP on port 8080...")
 
         # Respond to requests until process is killed
         httpd.serve_forever()
