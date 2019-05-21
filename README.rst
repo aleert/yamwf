@@ -2,7 +2,7 @@ Yet Another Micro Web Framework
 -------------------------------
 is very simplistic yet another micro web framework made in python for study purposes.
 
-It is based around `WebOb <https://webob.org/>`_ `Request` and `Response` classes,
+It is built around `WebOb <https://webob.org/>`_ `Request` and `Response` classes,
 that wrap around wsgi environment dictionary.
 
 There is only one dependency to run it - WebOb,
